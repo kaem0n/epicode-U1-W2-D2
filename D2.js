@@ -6,7 +6,7 @@ console.log('Esercizi JS U1-W2-D2 - https://github.com/kaem0n/epicode-U1-W2-D2')
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let num1 = 2
-let num2 = 5
+let num2 = 66
 if (num1 > num2) {
   console.log('1) ' + num1 + ' è maggiore di ' + num2)
 } else {
@@ -18,11 +18,11 @@ if (num1 > num2) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num3 = 4
+let num3 = 5
 if (num3 !== 5) {
-  console.log('2) The value is not correct:', num3)
+  console.log('2) Il valore non è corretto.')
 } else {
-  console.log('2) The value is correct:', num3)
+  console.log('2) Il valore è corretto:', num3)
 }
 
 /* ESERCIZIO 3
