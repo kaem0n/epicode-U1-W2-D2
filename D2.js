@@ -7,7 +7,11 @@ console.log('Esercizi JS U1-W2-D2 - https://github.com/kaem0n/epicode-U1-W2-D2')
 /* SCRIVI QUI LA TUA RISPOSTA */
 let num1 = 2
 let num2 = 5
-console.log('1) Dati due numeri: ' + num1 + ' e ' + num2 + '; il numero maggiore è: ' + Math.max(num1, num2))
+if (num1 > num2) {
+  console.log('1) ' + num1 + ' è maggiore di ' + num2)
+} else {
+  console.log('1) ' + num2 + ' è maggiore di ' + num1)
+}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
