@@ -44,7 +44,7 @@ if (num4 % 5) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 let num5 = 6
 let num6 = 8
-if (num5 - num6 === 8 || num5 + num6 === 8 || num5 ===8 || num6 === 8) {
+if (num5 - num6 === 8 || num5 + num6 === 8 || num5 === 8 || num6 === 8) {
   console.log('4) Tra i dati è presente un 8.')
 } else {
   console.log('4) Tra i dati NON è presente un 8.')
@@ -79,8 +79,8 @@ if (shoppingCart >= 50) {
 // Non riscrivo tutto, continuo il codice dell'esercizio 5 direttamente qui aggiungendo:
 let blackFriday = '20% di sconto'
 if (blackFriday) {
-  totalShoppingCart = (totalShoppingCart * 20) / 100;
-  console.log('6) Totale da pagare: ' + totalShoppingCart + ' (sconto Black Friday del 20% incluso)')
+  totalShoppingCart = totalShoppingCart - (totalShoppingCart * 20) / 100;
+  console.log('6) Totale da pagare: ' + totalShoppingCart + ' (sconto Black Friday del 20% applicato)')
 }
 
 /* ESERCIZIO 7
