@@ -79,7 +79,7 @@ if (shoppingCart >= 50) {
 // Non riscrivo tutto, continuo il codice dell'esercizio 5 direttamente qui aggiungendo:
 let blackFriday = '20% di sconto'
 if (blackFriday) {
-  totalShoppingCart = totalShoppingCart - (totalShoppingCart * 20) / 100;
+  totalShoppingCart = totalShoppingCart - ((totalShoppingCart * 20) / 100);
   console.log('6) Totale da pagare: ' + totalShoppingCart + ' (sconto Black Friday del 20% applicato)')
 }
 
@@ -156,8 +156,9 @@ const me = {
 }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log('11a) Oggetto "me" originale:', me)
 me.city = 'Toronto'
-console.log('11) Oggetto "me" aggiornato:', me)
+console.log('11b) Oggetto "me" aggiornato:', me)
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
